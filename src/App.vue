@@ -1,26 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+    <advice-component />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import AdviceComponent from './components/AdviceComponent.vue'
 
 export default {
-  name: "App",
-  components: {
-    HelloWorld,
-  },
-};
+    name: 'App',
+
+    components: {
+        'advice-component': AdviceComponent,
+    },
+}
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $bg;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 </style>

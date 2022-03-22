@@ -1,0 +1,14 @@
+@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+$primary: hsl(150, 100%, 66%);
+$secondary: hsl(193, 38%, 86%);
+
+$bg-quote: hsl(217, 19%, 38%);
+$bg: hsl(217, 19%, 24%);
+
+$quote: 800 28px 'Manrope', Helvetica, Arial, sans-serif;
+$title: 800 13px 'Manrope', Helvetica, Arial, sans-serif;
+
+$mq-mobile: 375px;
+$mq-desktop: 1440px;
